@@ -1,0 +1,109 @@
+# -----------------------------------------------------------------------------
+# Labryinth Gloom Theme
+# -----------------------------------------------------------------------------
+#
+text: &text "#d3d8e2"
+base: &base "#10141b"
+overlay: &overlay "#1d2230"
+muted: &muted "#4c5765"
+amber: &amber "#da877f"
+moss: &moss "#3b7968"
+sun: &sun "#d99a5c"
+haze: &haze "#8e7aa8"
+crimson: &crimson "#c94f6d"
+
+# Skin...
+k9s:
+  # General K9s styles
+  body:
+    fgColor: *text
+    bgColor: *base
+    logoColor: *haze
+  # Command prompt styles
+  prompt:
+    fgColor: *text
+    bgColor: *base
+    suggestColor: *haze
+  # ClusterInfoView styles.
+  info:
+    fgColor: *haze
+    sectionColor: *text
+  # Dialog styles.
+  dialog:
+    fgColor: *text
+    bgColor: *base
+    buttonFgColor: *text
+    buttonBgColor: *haze
+    buttonFocusFgColor: *sun
+    buttonFocusBgColor: *haze
+    labelFgColor: *sun
+    fieldFgColor: *text
+  frame:
+    # Borders styles.
+    border:
+      fgColor: *overlay
+      focusColor: *overlay
+    menu:
+      fgColor: *text
+      keyColor: *haze
+      # Used for favorite namespaces
+      numKeyColor: *haze
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: *text
+      bgColor: *overlay
+      activeColor: *overlay
+    # Resource status and update styles
+    status:
+      newColor: *amber
+      modifyColor: *haze
+      addColor: *moss
+      errorColor: *crimson
+      highlightcolor: *sun
+      killColor: *muted
+      completedColor: *muted
+    # Border title styles.
+    title:
+      fgColor: *text
+      bgColor: *overlay
+      highlightColor: *sun
+      counterColor: *haze
+      filterColor: *haze
+  views:
+    # Charts skins...
+    charts:
+      bgColor: default
+      defaultDialColors:
+        - *haze
+        - *crimson
+      defaultChartColors:
+        - *haze
+        - *crimson
+    # TableView attributes.
+    table:
+      fgColor: *text
+      bgColor: *base
+      # Header row styles.
+      header:
+        fgColor: *text
+        bgColor: *base
+        sorterColor: *amber
+    # Xray view attributes.
+    xray:
+      fgColor: *text
+      bgColor: *base
+      cursorColor: *overlay
+      graphicColor: *haze
+      showIcons: false
+    # YAML info styles.
+    yaml:
+      keyColor: *haze
+      colonColor: *haze
+      valueColor: *text
+    # Logs styles.
+    logs:
+      fgColor: *text
+      bgColor: *base
+      indicator:
+        fgColor: *text
+        bgColor: *haze
