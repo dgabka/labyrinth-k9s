@@ -1,16 +1,12 @@
-# -----------------------------------------------------------------------------
-# Labyrinth Shade Theme
-# -----------------------------------------------------------------------------
-#
-text: &text "#c4c7d4"
-base: &base "#1c1f29"
-overlay: &overlay "#282d39"
-muted: &muted "#646a7c"
-amber: &amber "#c88b7a"
-moss: &moss "#387464"
-sun: &sun "#c88b59"
-haze: &haze "#827398"
-crimson: &crimson "#b15366"
+text: &text "$text"
+base: &base "$base"
+overlay: &overlay "$overlay"
+muted: &muted "$muted"
+amber: &amber "$amber"
+moss: &moss "$moss"
+sun: &sun "$sun"
+haze: &haze "$haze"
+crimson: &crimson "$crimson"
 
 # Skin...
 k9s:

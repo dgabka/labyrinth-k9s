@@ -1,16 +1,12 @@
-# -----------------------------------------------------------------------------
-# Labytinth Dusk Theme
-# -----------------------------------------------------------------------------
-#
-text: &text "#dee1eb"
-base: &base "#181b24"
-overlay: &overlay "#242834"
-muted: &muted "#575e72"
-amber: &amber "#e2968b"
-moss: &moss "#458976"
-sun: &sun "#e0a469"
-haze: &haze "#9884b2"
-crimson: &crimson "#d7617b"
+text: &text "#d3d8e2"
+base: &base "#0f1211"
+overlay: &overlay "#171b19"
+muted: &muted "#4c5759"
+amber: &amber "#da9187"
+moss: &moss "#415f43"
+sun: &sun "#d29558"
+haze: &haze "#8c7aa0"
+crimson: &crimson "#c95a78"
 
 # Skin...
 k9s:

@@ -1,15 +1,11 @@
-# -----------------------------------------------------------------------------
-# Labryinth Gloom Theme
-# -----------------------------------------------------------------------------
-#
 text: &text "#d3d8e2"
-base: &base "#10141b"
-overlay: &overlay "#1d2230"
-muted: &muted "#4c5765"
+base: &base "#050a05"
+overlay: &overlay "#0a110a"
+muted: &muted "#4c5759"
 amber: &amber "#da877f"
-moss: &moss "#3b7968"
+moss: &moss "#417346"
 sun: &sun "#d99a5c"
-haze: &haze "#8e7aa8"
+haze: &haze "#9884b2"
 crimson: &crimson "#c94f6d"
 
 # Skin...
