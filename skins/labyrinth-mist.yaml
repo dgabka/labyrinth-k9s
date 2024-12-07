@@ -1,12 +1,12 @@
-text: &text "#bec3c1"
-base: &base "#171918"
-overlay: &overlay "#1f2120"
-muted: &muted "#4c5759"
-amber: &amber "#be8c82"
-moss: &moss "#415f43"
-sun: &sun "#be915e"
-haze: &haze "#8c7d98"
-crimson: &crimson "#b4556e"
+text: &text "#A0AA96"
+base: &base "#1A1C19"
+overlay: &overlay "#242824"
+muted: &muted "#555550"
+amber: &amber "#A06546"
+moss: &moss "#3A563C"
+sun: &sun "#B48E46"
+haze: &haze "#7C6C8B"
+crimson: &crimson "#96465A"
 
 # Skin...
 k9s:
