@@ -1,11 +1,11 @@
 text: &text "#d3d8e2"
-base: &base "#050a05"
-overlay: &overlay "#0a110a"
-muted: &muted "#4c5759"
+base: &base "#050A05"
+overlay: &overlay "#0A110A"
+muted: &muted "#4C5759"
 amber: &amber "#da877f"
 moss: &moss "#417346"
 sun: &sun "#d99a5c"
-haze: &haze "#9884b2"
+haze: &haze "#9884B2"
 crimson: &crimson "#c94f6d"
 
 # Skin...
